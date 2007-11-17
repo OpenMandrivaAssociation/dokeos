@@ -61,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%doc CREDITS.txt INSTALL.txt README.txt installation_guide.html install.sh
+%doc README.txt install.sh
 %{webroot}
 
