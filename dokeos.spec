@@ -1,5 +1,5 @@
 %define	name	dokeos
-%define version 1.6.5
+%define version 1.8.4
 %define	rel	1
 %define release %mkrel %{rel}
 %define	webroot	%{_var}/www/html/%{name}
@@ -8,7 +8,7 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Summary:	An elearning and course management web application
-Source0:	http://ovh.dl.sourceforge.net/sourceforge/dokeos/%{name}-%{version}.tar.bz2
+Source0:	http://ovh.dl.sourceforge.net/sourceforge/dokeos/%{name}-%{version}.zip
 License:	GPL
 Group:		Education
 URL:		http://www.dokeos.com/
@@ -24,7 +24,7 @@ manage learning and collaboration activities. It has many tools, is light
 and flexible, and free software.
 
 %prep
-%setup -q
+%setup -q -n %name
 
 %build
 cat << EOF > install.sh
