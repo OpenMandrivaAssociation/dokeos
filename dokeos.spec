@@ -15,7 +15,6 @@ URL:		http://www.dokeos.com/
 Requires:	apache-mod_php php-mysql php-xml
 %define _requires_exceptions pear\(.*\)
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Dokeos is an elearning and course management web application, translated
