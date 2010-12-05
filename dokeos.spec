@@ -1,6 +1,6 @@
 %define	name	dokeos
 %define version 1.8.6.1
-%define	rel	1
+%define	rel	2
 %define release %mkrel %{rel}
 %define	webroot	%{_var}/www/html/%{name}
 
