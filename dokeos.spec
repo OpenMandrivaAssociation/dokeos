@@ -64,3 +64,44 @@ rm -rf $RPM_BUILD_ROOT
 %doc README.txt install.sh
 %{webroot}
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.8.6.1-2mdv2011.0
++ Revision: 610263
+- rebuild
+
+* Sat Mar 06 2010 Sandro Cazzaniga <kharec@mandriva.org> 1.8.6.1-1mdv2010.1
++ Revision: 514903
+- update to 1.8.6.1
+- fix %%prep and license
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.8.4-2mdv2010.0
++ Revision: 428324
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.8.4-1mdv2009.0
++ Revision: 136373
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat Nov 17 2007 Funda Wang <fwang@mandriva.org> 1.8.4-1mdv2008.1
++ Revision: 109188
+- fix doc list
+- New version 1.8.4
+- import dokeos
+
+
+* Mon Sep 04 2006 Jerome Soyer <saispo@mandriva.org> 1.6.5-1mdv2007.0
+- New release 1.6.5
+
+* Wed Jul 05 2006 Thierry Vignaud <tvignaud@mandriva.com> 1.6.2-3mdv2007.0
+- fix group
+
+* Thu Oct 06 2005 Per Øyvind Karlsen <pkarlsen@mandriva.com> 1.6.2-2mdk
+- fix summary (thx misc)
+
+* Wed Oct 05 2005 Per Øyvind Karlsen <pkarlsen@mandriva.com> 1.6.2-1mdk
+- initial release (requested by GOLL Aurélien <agoll@mandriva.com>)
