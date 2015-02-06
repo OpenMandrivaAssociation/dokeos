@@ -1,7 +1,7 @@
 Summary:	An elearning and course management web application
 Name:		dokeos
 Version:	1.8.6.1
-Release:	3
+Release:	4
 License:	GPLv2+
 Group:		Education
 Url:		http://www.dokeos.com/
