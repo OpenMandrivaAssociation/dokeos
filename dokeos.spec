@@ -4,7 +4,7 @@ Version:	1.8.6.1
 Release:	4
 License:	GPLv2+
 Group:		Education
-Url:		http://www.dokeos.com/
+Url:		https://www.dokeos.com/
 Source0:	http://ovh.dl.sourceforge.net/sourceforge/dokeos/%{name}-%{version}.zip
 Requires:	apache-mod_php
 Requires:	php-mysql
